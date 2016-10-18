@@ -1,0 +1,33 @@
+{
+  "name": "webpack-proxy-example",
+  "version": "1.0.0",
+  "description": "The sample application which uses webpack-dev-server as a reverse proxy.",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp",
+    "webpack": "webpack",
+    "webpack-dev-server": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suzuki-shunsuke/webpack-proxy-example.git"
+  },
+  "author": "Suzuki Shunsuke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suzuki-shunsuke/webpack-proxy-example/issues"
+  },
+  "homepage": "https://github.com/suzuki-shunsuke/webpack-proxy-example#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-cli": "^1.2.2",
+    "gulp-connect": "^5.0.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
